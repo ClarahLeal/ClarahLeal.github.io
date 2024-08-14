@@ -1,0 +1,92 @@
+body {
+    display: block;
+    justify-content: center; 
+    
+    height: 100vh;
+    margin: 0;
+    font-family: Arial;
+    background-color: #dfb3f093; /* Fondo de toda la página de color rosado */
+
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    max-height: 600px; /* Establece un alto máximo de 600px */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si el contenido es más alto que el alto máximo */
+}
+
+
+
+header {
+    background-color: #333;
+    position:fixed;
+    width: 100%; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 0%;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben */
+    display: flex; /* Hace que los elementos li estén uno al lado del otro */
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 50px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #575757;
+    border-radius: 3px;
+}
+
+.contenedor-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.958);
+    margin-bottom: 10%;
+    max-width: 800px;    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contenedor-perfil p{
+   
+    box-shadow: 0 0 10px rgba(18, 18, 18, 0.995);   
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium';
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    width: 400px;
+    text-align: center;
+    
+}
+
+.logo-wsp{
+    width: 50px;
+    height: 50px;
+}
+
+
+.perfil{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+   
+}
+
